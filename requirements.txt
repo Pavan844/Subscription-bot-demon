@@ -1,0 +1,7 @@
+aiofiles
+dnspython
+motor
+python-dotenv
+pyrofork
+tgcrypto
+uvloop
