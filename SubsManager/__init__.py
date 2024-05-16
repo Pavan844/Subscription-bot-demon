@@ -24,7 +24,7 @@ BOT_START = time()
 bot_cache = {}
 
 bot_chats = {
-    -1002120236054: {
+    -1002015038990: {
         "prices": {"1d": 10, "30d": 250, "90d": 600},
         "sshots": [
             "https://te.legra.ph/file/949cba8c7936a0aef636e.jpg",
