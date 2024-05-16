@@ -57,7 +57,7 @@ class Config:
         exit(1)
     LOG_CHAT = int(getenv("LOG_CHAT", "-1002061267081"))
     ADMINS = list(map(int, getenv("ADMINS", "6168162777").split()))
-    MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://kp9731818219:iGjqyzraWAbMcfMU@cluster0.zanohyt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://kp9731818219:A6j4uZkfAhymgclV@cluster0.zanohyt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     AUTO_APPROVE = getenv("AUTO_APPROVE", "false").lower() == "true"
     REF_NEEDED = int(getenv("REF_NEEDED", "0"))
 
