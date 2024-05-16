@@ -33,7 +33,7 @@ bot_chats = {
         ],
         "args": {"Type": "Games", "Desp": "Nothing to Say, Highly Recommended"},
     },
-    -1001751010961: {
+    -1002127181784: {
         "prices": {"1d": 10, "30d": 28, "90d": 70},
         "sshots": [
             "https://te.legra.ph/file/949cba8c7936a0aef636e.jpg",
@@ -57,7 +57,7 @@ class Config:
         exit(1)
     LOG_CHAT = int(getenv("LOG_CHAT", "-1002061267081"))
     ADMINS = list(map(int, getenv("ADMINS", "6168162777").split()))
-    MONGODB_URL = getenv("MONGODB_URL", "")
+    MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://kp9731818219:iGjqyzraWAbMcfMU@cluster0.zanohyt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     AUTO_APPROVE = getenv("AUTO_APPROVE", "false").lower() == "true"
     REF_NEEDED = int(getenv("REF_NEEDED", "0"))
 
