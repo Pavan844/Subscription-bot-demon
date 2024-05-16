@@ -49,14 +49,14 @@ bot_chats = {
 
 
 class Config:
-    BOT_TOKEN = getenv("BOT_TOKEN", "")
-    API_HASH = getenv("API_HASH", "")
-    API_ID = getenv("API_ID", "")
+    BOT_TOKEN = getenv("BOT_TOKEN", "7080709991:AAFXSt9i4k6OypBcPSd8KllkiucXR4_sMho")
+    API_HASH = getenv("API_HASH", "7b93fc0adc30039f74a7faeba4a3875d")
+    API_ID = getenv("API_ID", "20508620")
     if BOT_TOKEN == "" or API_HASH == "" or API_ID == "":
         LOGGER.critical("ENV Missing. Exiting Now...")
         exit(1)
-    LOG_CHAT = int(getenv("LOG_CHAT", ""))
-    ADMINS = list(map(int, getenv("ADMINS", "").split()))
+    LOG_CHAT = int(getenv("LOG_CHAT", "-1002061267081"))
+    ADMINS = list(map(int, getenv("ADMINS", "6168162777").split()))
     MONGODB_URL = getenv("MONGODB_URL", "")
     AUTO_APPROVE = getenv("AUTO_APPROVE", "false").lower() == "true"
     REF_NEEDED = int(getenv("REF_NEEDED", "0"))
