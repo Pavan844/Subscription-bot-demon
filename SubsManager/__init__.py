@@ -36,12 +36,12 @@ bot_chats = {
     -1002127181784: {
         "prices": {"1d": 10, "30d": 28, "90d": 70},
         "sshots": [
-            "https://te.legra.ph/file/949cba8c7936a0aef636e.jpg",
+            "https://te.legra.ph/file/e3aaee8624be55289c771.jpg",
             "https://te.legra.ph/file/949cba8c7936a0aef636e.jpg",
             "https://te.legra.ph/file/949cba8c7936a0aef636e.jpg",
         ],
         "args": {
-            "Type": "Files",
+            "Type": "test1",
             "Desp": "Nothing to Say, Highly Recommended with wide varieties",
         },
     },
