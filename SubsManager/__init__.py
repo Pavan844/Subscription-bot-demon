@@ -34,7 +34,7 @@ bot_chats = {
         "args": {"Type": "Games", "Desp": "Nothing to Say, Highly Recommended"},
     },    
    -1002093797403: {
-        "prices": {"1y": 199,  "6m": 99},
+        "prices": {"365d": 199,  "180day": 99},
         "sshots": [
             "https://telegra.ph/file/408c464aa15decb52d9eb.jpg",
             "https://telegra.ph/file/dbae82f39b64c55668e42.jpg",
@@ -44,6 +44,7 @@ bot_chats = {
             "Type": "Kannada videos",
             "Desp": "Nothing to Say, Highly Recommended kannada videos",
         },
+     }, 
     -1002127181784: {
         "prices": {"1d": 10, "30d": 28, "90d": 70},
         "sshots": [
