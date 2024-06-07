@@ -37,10 +37,8 @@ bot_chats = {
         "prices": {"1y": 199,  "6m": 99},
         "sshots": [
             "https://telegra.ph/file/408c464aa15decb52d9eb.jpg",
-
-"https://telegra.ph/file/dbae82f39b64c55668e42.jpg",
-
-"https://telegra.ph/file/20de33383da6a864395aa.jpg",
+            "https://telegra.ph/file/dbae82f39b64c55668e42.jpg",
+            "https://telegra.ph/file/20de33383da6a864395aa.jpg",
         ],
         "args": {
             "Type": "Kannada videos",
