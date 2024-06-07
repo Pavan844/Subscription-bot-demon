@@ -32,6 +32,7 @@ bot_chats = {
             "https://te.legra.ph/file/949cba8c7936a0aef636e.jpg",
         ],
         "args": {"Type": "Games", "Desp": "Nothing to Say, Highly Recommended"},
+    },    
    -1002093797403: {
         "prices": {"1y": 199,  "6m": 99},
         "sshots": [
