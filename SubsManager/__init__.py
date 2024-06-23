@@ -71,7 +71,7 @@ class Config:
     ADMINS = list(map(int, getenv("ADMINS", "6059507751 6822467996 6971938312").split()))
     MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://kp9731818219:A6j4uZkfAhymgclV@cluster0.zanohyt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     AUTO_APPROVE = getenv("AUTO_APPROVE", "false").lower() == "true"
-    REF_NEEDED = int(getenv("REF_NEEDED", "0"))
+    REF_NEEDED = int(getenv("REF_NEEDED", "40"))
 
 bot = Client(
     "Subs-Bot",
