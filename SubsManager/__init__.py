@@ -94,7 +94,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended bra panty weared videos photos",},
      },
      -1002132453287: {
-        "prices": {"365d": 99,  "730day": 199},
+         "prices": {"365d": 99,  "730day": 199},
          "sshots": [
              "https://telegra.ph/file/2bab102cee5fb4ee33140.jpg",
              "https://telegra.ph/file/2c099023aec4aec9b7608.jpg",
@@ -135,7 +135,7 @@ bot_chats = {
      },
      -1002014215972: {
         "prices": {"365d": 99,  "730day": 199},
-         "sshots": [
+        "sshots": [
             "https://telegra.ph/file/7c20f2a912ff467b74a8c.jpg",
         ],
          "args": {
@@ -144,7 +144,7 @@ bot_chats = {
      },
       -1002035263833: {
         "prices": {"365d": 99,  "730day": 199},
-          "sshots": [
+        "sshots": [
            "https://telegra.ph/file/bec5e9ba05e9a8fb384e8.jpg",           
            "https://telegra.ph/file/d92635036084702b8c1cf.jpg",
           ],
