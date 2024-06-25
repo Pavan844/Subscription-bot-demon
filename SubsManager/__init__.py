@@ -61,14 +61,6 @@ bot_chats = {
             "Type": "R@pe videos", 
             "Desp": "Nothing to Say, Highly Recommended rape videos",}, 
      },
-     -1002035263833: 
-     {"prices": {"365d": 99,  "730day": 199},        "sshots": [ 
-            "https://telegra.ph/file/bec5e9ba05e9a8fb384e8.jpg",           
-            "https://telegra.ph/file/d92635036084702b8c1cf.jpg", ], 
-        "args": {       
-            "Type": "shemale videos", 
-            "Desp": "Nothing to Say, Highly Recommended shemale videos",}, 
-     },
      -1002012075373: { 
         "prices": {"365d": 99,  "730day": 199},        "sshots": [ 
             "https://telegra.ph/file/b061bd85ee8a41565616e.jpg",                 ], 
