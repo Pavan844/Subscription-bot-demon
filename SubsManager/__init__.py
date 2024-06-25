@@ -103,7 +103,7 @@ bot_chats = {
      -1002143506351: { 
         "prices": {"365d": 99,  "730day": 199},        "sshots": [ 
             "https://telegra.ph/file/e80391cf199781e178d0c.jpg",           
-"https://telegra.ph/file/12ffdffc9522095306f9e.jpg",       ], 
+            "https://telegra.ph/file/12ffdffc9522095306f9e.jpg",       ], 
         "args": {      
             "Type": "Arkestra ", 
             "Desp": "Nothing to Say, Highly Recommended Arkestra fucking video videos videos",}, 
@@ -111,7 +111,7 @@ bot_chats = {
      -1001990894943: { 
         "prices": {"365d": 99,  "730day": 199},        "sshots": [ 
             "https://telegra.ph/file/cebf410aab51a86d89d4a.jpg",           
-"https://telegra.ph/file/6aa05ab2113a6873b73e4.jpg",       ], 
+            "https://telegra.ph/file/6aa05ab2113a6873b73e4.jpg",       ], 
         "args": {       
             "Type": "Auntys and girls ", 
             "Desp": "Nothing to Say, Highly Recommended Auntys and girls fucking video videos videos",}, 
