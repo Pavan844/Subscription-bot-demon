@@ -69,7 +69,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended rape videos",}, 
      },
      -1002057152413: { 
-        "prices": {"365d": 99,  "730day": 199},        "sshots": [ 
+        "prices": {"365d": 99,  "730day": 199},        "sshots": [ 
              "https://telegra.ph/file/df24b7f1c82a4c02d9cc5.jpg",           
              "https://telegra.ph/file/605e243f060edd164f8e8.jpg",       ], 
         "args": {     
