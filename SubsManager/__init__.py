@@ -82,9 +82,9 @@ bot_chats = {
         "args": {
             "Type": "prajwal revanna",
             "Desp":"Nothing to Say, Highly Recommended prajwal revanna videos",},
-    },
+     },
      -1002025167901: {
-        "prices": {"365d": 99,  "730day": 199},
+         "prices": {"365d": 99,  "730day": 199},
          "sshots": [
             "https://telegra.ph/file/79fb5774c5cb3a8c44853.jpg",
             "https://telegra.ph/file/e1e1198bdba65e775d2ee.jpg",
