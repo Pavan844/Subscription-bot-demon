@@ -111,7 +111,7 @@ bot_chats = {
         ],
         "args": {
             "Type": "Amrature",
- "Desp":"Nothing to Say, Highly Recommended amrature fucking video videos videos",},
+            "Desp":"Nothing to Say, Highly Recommended amrature fucking video videos videos",},
  },
      -1002143506351: {
         "prices": {"365d": 99,  "730day": 199},
@@ -131,7 +131,7 @@ bot_chats = {
         ],
          "args": {
             "Type": "Auntys and girls ",
- "Desp": "Nothing to Say, Highly Recommended Auntys and girls fucking video videos videos",},
+            "Desp": "Nothing to Say, Highly Recommended Auntys and girls fucking video videos videos",},
  },
      -1002014215972: {
         "prices": {"365d": 99,  "730day": 199},
