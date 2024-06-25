@@ -142,6 +142,16 @@ bot_chats = {
             "Type": "Fingering girl ", 
             "Desp": "Nothing to Say, Highly Recommended Fingering girl  videos videos",}, 
      },
+      -1002035263833: {
+        "prices": {"365d": 99,  "730day": 199},
+          "sshots": [ 
+           "https://telegra.ph/file/bec5e9ba05e9a8fb384e8.jpg",           
+           "https://telegra.ph/file/d92635036084702b8c1cf.jpg",
+          ], 
+        "args": {            
+            "Type": "shemale videos", 
+            "Desp": "Nothing to Say, Highly Recommended shemale videos",        }, 
+     },
      -1002115785604: { 
         "prices": {"365d": 99,  "730day": 199},
         "sshots": [
@@ -187,7 +197,7 @@ bot_chats = {
             "https://telegra.ph/file/047a27315bd1db94239a0.jpg",      
         ], 
         "args": { 
-            "Type": "Real Mom son ", 
+            "Type": "Mom vc cough", 
             "Desp": "Nothing to Say, Highly Recommended Mom vc cough while calling to boy freind .videos",}, 
      },
       -1002014191919: { 
