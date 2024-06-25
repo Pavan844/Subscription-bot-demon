@@ -81,8 +81,8 @@ bot_chats = {
         ],
         "args": {
             "Type": "prajwal revanna",
-            "Desp":"Nothing to Say, Highly Recommended prajwal revanna videos",},
-     },
+            "Desp": "Nothing to Say,Highly Recommended prajwal revanna videos",},
+    },
      -1002025167901: {
          "prices": {"365d": 99,  "730day": 199},
          "sshots": [
@@ -91,7 +91,7 @@ bot_chats = {
          ],
          "args": {
             "Type": "bra panty ",
-            "Desp": "Nothing to Say, Highly Recommended bra panty weared videos photos",},
+            "Desp": "Nothing to Say, Highly Recommended bra panty weared videos photos",},
      },
      -1002132453287: {
         "prices": {"365d": 99,  "730day": 199},
@@ -101,7 +101,7 @@ bot_chats = {
         ],
          "args": {
             "Type": "lebsian ",
-            "Desp": "Nothing to Say, Highly Recommended lebsian fucking video videos videos",},
+            "Desp":"Nothing to Say, Highly Recommended lebsian fucking video videos videos",},
      },
     -1002043373889: {
         "prices": {"365d": 99,  "730day": 199},
@@ -111,7 +111,7 @@ bot_chats = {
         ],
         "args": {
             "Type": "Amrature",
-            "Desp": "Nothing to Say, Highly Recommended amrature fucking video videos videos",},
+            "Desp":"Nothing to Say, Highly Recommended amrature fucking video videos videos",},
      },
      -1002143506351: {
         "prices": {"365d": 99,  "730day": 199},
