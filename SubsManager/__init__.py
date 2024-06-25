@@ -104,119 +104,119 @@ bot_chats = {
             "Desp":"Nothing to Say, Highly Recommended lebsian fucking video videos videos",},
      },
      -1002043373889: {
-        "prices": {"365d": 99,  "730day": 199},
-        "sshots": [
-            "https://telegra.ph/file/03b68799c1e90b0533f50.jpg",
+             "prices": {"365d": 99,  "730day": 199},
+   "sshots": [
+ "https://telegra.ph/file/03b68799c1e90b0533f50.jpg",
             "https://telegra.ph/file/92f33db2e55a382a74829.jpg",
         ],
         "args": {
             "Type": "Amrature",
-            "Desp":"Nothing to Say, Highly Recommended amrature fucking video videos videos",},
-     },
+ "Desp":"Nothing to Say, Highly Recommended amrature fucking video videos videos",},
+ },
      -1002143506351: {
-        "prices": {"365d": 99,  "730day": 199},
+ "prices": {"365d": 99,  "730day": 199},
         "sshots": [
-            "https://telegra.ph/file/e80391cf199781e178d0c.jpg",
+ "https://telegra.ph/file/e80391cf199781e178d0c.jpg",
             "https://telegra.ph/file/12ffdffc9522095306f9e.jpg",
         ],
-        "args": {
+ "args": {
             "Type": "Arkestra",
-            "Desp": "Nothing to Say, Highly Recommended Arkestra fucking video videos videos",},
-     },
+ "Desp": "Nothing to Say, Highly Recommended Arkestra fucking video videos videos",},
+ },
      -1001990894943: {
-        "prices": {"365d": 99,  "730day": 199},
+ "prices": {"365d": 99, "730day": 199},
         "sshots": [
-            "https://telegra.ph/file/cebf410aab51a86d89d4a.jpg",
+ "https://telegra.ph/file/cebf410aab51a86d89d4a.jpg",
             "https://telegra.ph/file/6aa05ab2113a6873b73e4.jpg",
         ],
          "args": {
             "Type": "Auntys and girls ",
-            "Desp": "Nothing to Say, Highly Recommended Auntys and girls fucking video videos videos",},
-     },
+ "Desp": "Nothing to Say, Highly Recommended Auntys and girls fucking video videos videos",},
+ },
      -1002014215972: {
-        "prices": {"365d": 99,  "730day": 199},
+ "prices": {"365d": 99,  "730day": 199},
         "sshots": [
-            "https://telegra.ph/file/7c20f2a912ff467b74a8c.jpg",
+ "https://telegra.ph/file/7c20f2a912ff467b74a8c.jpg",
         ],
          "args": {
             "Type": "Fingering girl ",
-            "Desp": "Nothing to Say, Highly Recommended Fingering girl  videos videos",},
-     },
+ "Desp": "Nothing to Say, Highly Recommended Fingering girl  videos videos",},
+ },
       -1002035263833: {
-        "prices": {"365d": 99,  "730day": 199},
+ "prices": {"365d": 99,  "730day": 199},
         "sshots": [
-           "https://telegra.ph/file/bec5e9ba05e9a8fb384e8.jpg",           
+ "https://telegra.ph/file/bec5e9ba05e9a8fb384e8.jpg", 
            "https://telegra.ph/file/d92635036084702b8c1cf.jpg",
           ],
-        "args": {     
+ "args": { 
             "Type": "shemale videos",
-            "Desp": "Nothing to Say, Highly Recommended shemale videos",  },
-     },
+ "Desp": "Nothing to Say, Highly Recommended shemale videos",},
+ },
      -1002115785604: {
-        "prices": {"365d": 99,  "730day": 199},
+ "prices": {"365d": 99,  "730day": 199},
         "sshots": [
-            "https://telegra.ph/file/df9b00a2e86cff722ca1b.jpg",
+ "https://telegra.ph/file/df9b00a2e86cff722ca1b.jpg",
             "https://telegra.ph/file/fffa68c3cfe6823d3f7ec.jpg",
-            "https://telegra.ph/file/4227c068cc7c0465b43ea.jpg",            
+            "https://telegra.ph/file/4227c068cc7c0465b43ea.jpg", 
         ], 
          "args": {
             "Type": "BLOW JOB",
-            "Desp": "Nothing to Say, Highly Recommended Ony blow job videos",},
-     },
+ "Desp": "Nothing to Say, Highly Recommended Ony blow job videos",},
+ },
      -1002021845785: {
-        "prices": {"365d": 99,  "730day": 199},
+ "prices": {"365d": 99,  "730day": 199},
         "sshots": [
-            "https://telegra.ph/file/c8c891a6869341c9c03b9.jpg",         
-            "https://telegra.ph/file/839fe37996b3847b79355.jpg",   
+ "https://telegra.ph/file/c8c891a6869341c9c03b9.jpg", 
+            "https://telegra.ph/file/839fe37996b3847b79355.jpg", 
         ],
          "args": {
             "Type": "Real Mom son ",
-            "Desp": "Nothing to Say, Highly Recommended Real Mom son adult fucking video videos videos",},
-     },
+ "Desp": "Nothing to Say, Highly Recommended Real Mom son adult fucking video videos videos",},
+ },
     -1002052874333: {
-        "prices": {"365d": 99,  "730day": 199},
+ "prices": {"365d": 99,  "730day": 199},
         "sshots": [
-            "https://telegra.ph/file/1d516853b93e511e3199e.jpg",         
+ "https://telegra.ph/file/1d516853b93e511e3199e.jpg",
         ],
         "args": {
             "Type": "Real muslim mom videos",
-            "Desp": "Nothing to Say, Highly Recommended Real muslim mom videos",},
-     },
+ "Desp": "Nothing to Say, Highly Recommended Real muslim mom videos",},
+ },
          -1002054957272: {
-        "prices": {"365d": 99,  "730day": 199},     
+ "prices": {"365d": 99,  "730day": 199}, 
         "sshots": [
-            "https://telegra.ph/file/23f666e437392b5139cbb.jpg",   
+ "https://telegra.ph/file/23f666e437392b5139cbb.jpg", 
         ],
-        "args": {
+ "args": {
             "Type": "Spy dressing mom",
-            "Desp": "Nothing to Say, Highly Recommended Spy dressing mom videos",        }, 
-     },
+ "Desp": "Nothing to Say, Highly Recommended Spy dressing mom videos", }, 
+ },
      -1002059225110: {
-        "prices": {"365d": 99,  "730day": 199},      
+ "prices": {"365d": 99,  "730day": 199}, 
         "sshots": [
-            "https://telegra.ph/file/047a27315bd1db94239a0.jpg",     
+ "https://telegra.ph/file/047a27315bd1db94239a0.jpg", 
         ],
-        "args": {
+"args": {
             "Type": "Mom vc cough",
-            "Desp": "Nothing to Say, Highly Recommended Mom vc cough while calling to boy freind .videos",}, 
-     },
-      -1002014191919: {
-        "prices": {"365d": 99,  "730day": 199},      
+ "Desp": "Nothing to Say, Highly Recommended Mom vc cough while calling to boy freind .videos",}, 
+ },
+    -1002014191919: {
+ "prices": {"365d": 99,  "730day": 199}, 
         "sshots": [
-            "https://telegra.ph/file/84a2d1b8f46ebfc225947.jpg",      
+ "https://telegra.ph/file/84a2d1b8f46ebfc225947.jpg", 
         ],
           "args": {
             "Type": "Mom spy",
-            "Desp": "Nothing to Say, Highly Recommended Son Spys his mom in full mood and jerk videos",},
-     },
+ "Desp": "Nothing to Say, Highly Recommended Son Spys his mom in full mood and jerk videos",},
+ },
       -1002013265570: { 
-        "prices": {"365d": 99,  "730day": 199},      
+ "prices": {"365d": 99,  "730day": 199}, 
         "sshots": [
-            "https://telegra.ph/file/19fe32bd5da075d8a92b0.jpg",
-            "https://telegra.ph/file/f3ab30b519e105f028158.jpg", 
+ "https://telegra.ph/file/19fe32bd5da075d8a92b0.jpg",
+            "https://telegra.ph/file/f3ab30b519e105f028158.jpg",
         ], "args": {
             "Type": "Mom son Indian",
-            "Desp": "Nothing to Say, Highly Recommended MOM SON FUCKS TO GETHER WHEN FATHER NOT THERE fucking  videos",},
+ "Desp": "Nothing to Say, Highly Recommended MOM SON FUCKS TO GETHER WHEN FATHER NOT THERE fucking  videos",},
      }, 
      -1002220464336: {
         "prices": {"1d": 10, "30d": 28, "90d": 70},
