@@ -81,7 +81,7 @@ bot_chats = {
         ],
         "args": {
             "Type": "prajwal revanna",
-            "Desp": "Nothing to Say, Highly Recommended prajwal revanna videos videos",},
+            "Desp":"Nothing to Say, Highly Recommended prajwal revanna videos",},
      },
      -1002025167901: {
         "prices": {"365d": 99,  "730day": 199},
