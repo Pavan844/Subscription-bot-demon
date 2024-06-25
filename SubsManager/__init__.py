@@ -45,7 +45,8 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended kannada videos",
         },
        Ada:
-},       -1002062783095: { 
+    },   
+   -1002062783095: { 
         "prices": {"365d": 99,  "730day": 199},        "sshots": [ 
                     "https://telegra.ph/file/140319b9aee613f929291.jpg",        ], 
         "args": {            "Type": "Ćhìld porn videos", 
@@ -59,8 +60,9 @@ bot_chats = {
         "args": {            "Type": "R@pe videos", 
             "Desp": "Nothing to Say, Highly Recommended rape videos",        }, 
      },
-
-},       -1002035263833: { 
+       
+},    
+  -1002035263833: { 
         "prices": {"365d": 99,  "730day": 199},        "sshots": [ 
             "https://telegra.ph/file/bec5e9ba05e9a8fb384e8.jpg",           
 "https://telegra.ph/file/d92635036084702b8c1cf.jpg",       ], 
@@ -176,8 +178,8 @@ bot_chats = {
         "args": {            "Type": "Mom spy ", 
             "Desp": "Nothing to Say, Highly Recommended Son Spys his mom in full mood and jerk videos",        }, 
      },
-
-},       -1002013265570: { 
+},       
+        -1002013265570: { 
         "prices": {"365d": 99,  "730day": 199},        "sshots": [ 
             "https://telegra.ph/file/19fe32bd5da075d8a92b0.jpg",           
 "https://telegra.ph/file/f3ab30b519e105f028158.jpg",       ], 
