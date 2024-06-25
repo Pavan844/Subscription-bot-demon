@@ -102,8 +102,8 @@ bot_chats = {
          "args": {
             "Type": "lebsian ",
             "Desp":"Nothing to Say, Highly Recommended lebsian fucking video videos videos",},
-     },
-    -1002043373889: {
+     },
+     -1002043373889: {
         "prices": {"365d": 99,  "730day": 199},
         "sshots": [
             "https://telegra.ph/file/03b68799c1e90b0533f50.jpg",
