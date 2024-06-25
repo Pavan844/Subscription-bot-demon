@@ -94,7 +94,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended bra panty weared videos photos",},
      },
      -1002132453287: {
-         "prices": {"365d": 99,  "730day": 199},
+         "prices": {"365d": 99,  "730day": 199},
          "sshots": [
              "https://telegra.ph/file/2bab102cee5fb4ee33140.jpg",
              "https://telegra.ph/file/2c099023aec4aec9b7608.jpg",
