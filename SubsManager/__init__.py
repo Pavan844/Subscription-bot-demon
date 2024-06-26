@@ -32,7 +32,7 @@ bot_chats = {
             "https://telegra.ph/file/7d9ae2da8f2fc35492597.jpg",
         ],
         "args": {
-            "Type": "All type videos", 
+            "Type": "All type of videos", 
             "Desp": "Nothing to Say, Highly Recommended all type videos include fre user refer and paid"},
     },    
    -1002093797403: {
@@ -62,7 +62,7 @@ bot_chats = {
             "https://telegra.ph/file/ae96db554b43c6d6b33a9.jpg",
             "https://telegra.ph/file/8cb81c8c284bd472324b8.jpg",
         ],
-        "args": {
+          "args": {
             "Type": "R@pe videos",
             "Desp": "Nothing to Say, Highly Recommended rape videos",},
       },
