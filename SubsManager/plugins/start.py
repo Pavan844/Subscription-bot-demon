@@ -64,7 +64,7 @@ async def get_cinfo(cid, plan):
     )
     return f"""<b><i>Premium Channel Details!</i></b>
     
-    • <b>Name:</b> {c_info.title}
+      <b>Name:</b> {c_info.title}
     • {args}
     • <b>Your Selected Plan:</b> {plan}
     • <b>Price List:</b>
