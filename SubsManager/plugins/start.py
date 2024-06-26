@@ -22,7 +22,7 @@ async def start_msg(_, message):
     
     <b>• SubBot Uptime:</b> {convertTime(time() - BOT_START)}
     <b>• SubBot Version:</b> V1.2.0
-    <b>• 𝗛𝗲𝗹𝗽 @vipinsidersbot
+    <b>• 𝗛𝗲𝗹𝗽:</b> @vipinsidersbot
     
 <i>A Smart & Efficient User Subscription Management Bot, with Multiple Features to feel ease both to customers & administrators...</i>""",
         photo="https://telegra.ph/file/c965ee91ab25f30e1879e.jpg",
