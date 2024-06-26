@@ -25,6 +25,7 @@ async def start_msg(_, message):
     <b>• 𝗛𝗲𝗹𝗽:</b> @vipinsidersbot
     
 <i>A Smart & Efficient User Subscription Management Bot, with Multiple Features to feel ease both to customers & administrators...</i>""",
+<i>𝓦𝓪𝓲𝓽 𝖋𝖔𝖗 𝒂 𝒔𝒆𝒄𝒐𝒏𝒅𝒔 𝒕𝒐 𝑳𝒐𝒂𝒅 𝑷𝒓𝒆𝒎𝒊𝒖𝒎 𝑪𝒉𝒂𝒏𝒏𝒆𝒍𝒔</i>""",  
         photo="https://telegra.ph/file/c965ee91ab25f30e1879e.jpg",
         buttons=InlineKeyboardMarkup(
             [
