@@ -24,7 +24,7 @@ async def start_msg(_, message):
     <b>• SubBot Version:</b> V1.2.0
     
 <i>A Smart & Efficient User Subscription Management Bot, with Multiple Features to feel ease both to customers & administrators...</i>""",
-        photo="https://te.legra.ph/file/949cba8c7936a0aef636e.jpg",
+        photo="https://telegra.ph/file/a40b781c1fe89c0f55866.jpg",
         buttons=InlineKeyboardMarkup(
             [
                 [
