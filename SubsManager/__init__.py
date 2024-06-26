@@ -24,12 +24,12 @@ BOT_START = time()
 bot_cache = {}
 
 bot_chats = {
-    -1002015038990: {
+    -1002094932065: {
         "prices": {"1d": 10, "30d": 250, "90d": 600},
         "sshots": [
+            "https://telegra.ph/file/c1caf4659e5e495355a0a.jpg",
             "https://te.legra.ph/file/949cba8c7936a0aef636e.jpg",
-            "https://te.legra.ph/file/949cba8c7936a0aef636e.jpg",
-            "https://te.legra.ph/file/949cba8c7936a0aef636e.jpg",
+            "https://telegra.ph/file/7d9ae2da8f2fc35492597.jpg",
         ],
         "args": {"Type": "Games", "Desp": "Nothing to Say, Highly Recommended"},
     },    
@@ -63,6 +63,15 @@ bot_chats = {
         "args": {
             "Type": "R@pe videos",
             "Desp": "Nothing to Say, Highly Recommended rape videos",},
+      },
+       -1002232203998: { 
+         "prices": {"365d": 199,  "180day": 99},       
+         "sshots": [ 
+            "https://telegra.ph/file/408c464aa15decb52d9eb.jpg",            "https://telegra.ph/file/532a4becebb26e6e9faef.jpg", 
+            "https://telegra.ph/file/ba9833e773731d8fcd792.jpg", ], 
+         "args": {
+             "Type": "Over Forced videos", 
+             "Desp": "Nothing to Say, Highly Recommended Overforced r@p videos", },
      },
      -1002012075373: {
         "prices": {"365d": 99,  "730day": 199},
