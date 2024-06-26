@@ -68,7 +68,7 @@ async def get_cinfo(cid, plan):
     {args}
     <b>Your Selected Plan:</b> {plan}
     <b>Price List:</b>
-        ‣{p_info}"""
+        {p_info}"""
 
 
 @bot.on_callback_query(regex(r"^cbbot"))
