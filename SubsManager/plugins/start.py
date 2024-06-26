@@ -22,11 +22,9 @@ async def start_msg(_, message):
     
     <b>• SubBot Uptime:</b> {convertTime(time() - BOT_START)}
     <b>• SubBot Version:</b> V1.2.0
-    <b>• 𝗛𝗲𝗹𝗽:</b> @vipinsidersbot
     
 <i>A Smart & Efficient User Subscription Management Bot, with Multiple Features to feel ease both to customers & administrators...</i>""",
-        
-        photo="https://telegra.ph/file/c965ee91ab25f30e1879e.jpg",
+        photo="https://te.legra.ph/file/949cba8c7936a0aef636e.jpg",
         buttons=InlineKeyboardMarkup(
             [
                 [
@@ -62,11 +60,13 @@ async def get_cinfo(cid, plan):
         for title, data in bot_chats[cid]["args"].items()
     )
     return f"""<b><i>Premium Channel Details!</i></b>
+    
     • <b>Name:</b> {c_info.title}
-    {args}
+    • {args}
     • <b>Your Selected Plan:</b> {plan}
     • <b>Price List:</b>
-    ‣{p_info}"""
+        ‣{p_info}"""
+
 
 @bot.on_callback_query(regex(r"^cbbot"))
 async def global_bot_cb(client, query):
@@ -426,7 +426,7 @@ async def global_bot_cb(client, query):
                 show_alert=True
             )
             return
-        
+
         prem_chats = await db._getUser(uid, "prem_chats", {})
         avl_prems = [cid for cid in bot_chats.keys() if str(cid) not in prem_chats.keys()]
         if len(avl_prems) == 0:
@@ -435,7 +435,7 @@ async def global_bot_cb(client, query):
                 show_alert=True
             )
         cid = choice(avl_prems)
-        
+
         prem_chats.update(
                 {
                     str(cid): {
@@ -450,14 +450,14 @@ async def global_bot_cb(client, query):
         ref_info["is_ref"] = True
         await db._setUserData(uid, key="refers", value=ref_info)
         await query.answer("Claimed Benefit! Got 30d of Premium", show_alert=True)
-        
+
         await asleep(0.6)
-        
+
         txt = "• <u><b>Free Premium Channel:</b></u>\n\n"
         txt += f">> <b>Channel Name: {(await client.get_chat(cid)).title}</b>\n"
         txt += f"    <b>Invite Link:</b> <i>{(await client.create_chat_invite_link(cid, expire_date=datetime.now()+timedelta(days=1), member_limit=1)).invite_link}</i>\n"
         txt += f"    <b>Prem Duration:</b> <i>30 days</i>\n\n"
-            
+
         await editMessage(message, txt, buttons=InlineKeyboardMarkup(
             [[InlineKeyboardButton("Close", callback_data="cbbot close")]]
         ),)
