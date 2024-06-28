@@ -183,6 +183,16 @@ bot_chats = {
          "args": {
             "Type": "Real Mom son ",
             "Desp": "Nothing to Say, Highly Recommended Real Mom son adult fucking video videos videos",},
+},    
+   -1002097246586: {
+        "prices": {"365d": 99,  "730day": 199},
+        "sshots": [
+            "https://telegra.ph/file/cecfc6dedfed35c28287a.png",
+            "https://telegra.ph/file/5ddaaab9d18f7148a6b9c.png",
+        ],
+        "args": {
+            "Type": "pedro mom videos",
+            "Desp": "Nothing to Say, Highly Recommended pedro mom videos ",},
  },
     -1002052874333: {
         "prices": {"365d": 99,  "730day": 199},
