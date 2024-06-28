@@ -22,8 +22,9 @@ async def start_msg(_, message):
     
     <b>• SubBot Uptime:</b> {convertTime(time() - BOT_START)}
     <b>• SubBot Version:</b> V1.2.0
+    <b>• ADMIN:</b> @Kammando55
     
-<i>A Smart & Efficient User Subscription Management Bot, with Multiple Features to feel ease both to customers & administrators...</i>""",
+<i>A Smart & Efficient User Subscription Management Bot, with Multiple Features to feel ease both to customers & administrators...WAIT A SECOND TO LOAD PREMIUM CHANNELLS</i>""",
         photo="https://telegra.ph/file/a40b781c1fe89c0f55866.jpg",
         buttons=InlineKeyboardMarkup(
             [
