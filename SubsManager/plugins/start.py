@@ -68,6 +68,14 @@ async def get_cinfo(cid, plan):
     • <b>Price List:</b>
         ‣{p_info}"""
 
+chat_cache = {}
+
+async def get_chat(client, chat):
+    if not chat_cache.get(chat, False):
+        c_info = await client.get_chat(chat)
+        chat_cache[chat] = c_info.title
+    return chat_cache.get(chat, "Channel Name N/A")
+
 
 @bot.on_callback_query(regex(r"^cbbot"))
 async def global_bot_cb(client, query):
@@ -77,11 +85,11 @@ async def global_bot_cb(client, query):
         await query.answer()
         chats = []
         for ind, chat in enumerate(bot_chats.keys(), start=1):
-            c_info = await client.get_chat(chat)
+            c_title = await get_chat(client, chat)
             chats.append(
                 [
                     InlineKeyboardButton(
-                        f"{ind}. {change_font(c_info.title)}",
+                        f"{ind}. {change_font(c_title)}",
                         callback_data=f"cbbot cinfo {chat}",
                     )
                 ]
