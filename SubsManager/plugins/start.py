@@ -36,7 +36,7 @@ async def start_msg(_, message):
                 [
                     InlineKeyboardButton("My Plans", callback_data="cbbot myplan"),
                     InlineKeyboardButton("My Cart", callback_data="cbbot mycart"),
-                    InlineKeyboardButton("Refer Others", callback_data="cbbot ref"),
+                    InlineKeyboardButton("Refer and earn", callback_data="cbbot ref"),
                 ],
                 [InlineKeyboardButton("Close", callback_data="cbbot close")],
             ]
