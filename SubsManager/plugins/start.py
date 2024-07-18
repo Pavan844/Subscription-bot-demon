@@ -49,6 +49,11 @@ async def start_msg(_, message):
             ref_eusers["uids"].append(uid)
             await db._setUserData(ref_user, key="refers", value=ref_eusers)
     await db._getUser(uid)
+    
+
+@bot.on_message(all & group)
+async def grps_add(_, m):
+    await db._updateGroup(m.chat.id)
 
 
 async def get_cinfo(cid, plan):
@@ -73,7 +78,7 @@ chat_cache = {}
 async def get_chat(client, chat):
     if not chat_cache.get(chat, False):
         c_info = await client.get_chat(chat)
-        chat_cache[chat] = c_info.title
+        chat_cache[chat] = change_font(c_info.title)
     return chat_cache.get(chat, "Channel Name N/A")
 
 
@@ -89,7 +94,7 @@ async def global_bot_cb(client, query):
             chats.append(
                 [
                     InlineKeyboardButton(
-                        f"{ind}. {change_font(c_title)}",
+                        f"{ind}. {c_title}",
                         callback_data=f"cbbot cinfo {chat}",
                     )
                 ]

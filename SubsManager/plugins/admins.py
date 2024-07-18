@@ -115,12 +115,14 @@ async def ban_user(_, message):
     await sendMessage(message, txt)
 
 
-@bot.on_message(command(["broadcast", "bc"]) & user(Config.ADMINS))
+@bot.on_message(command(["broadcast", "bc", "grp_bc", "grp_broadcast"]) & user(Config.ADMINS))
 async def broadcast(_, message):
-    if not message.reply_to_message:
-        return await message.reply("<code>Use this command as a reply to any telegram message to broadcast to users.</code>")
+    is_grpbc = bool(message.command[0] in ["grp_bc", "grp_broadcast"])
 
-    query = await db._getAllUsers()
+    if not message.reply_to_message:
+        return await message.reply(f"<code>Use this command as a reply to any telegram message to broadcast to all {"groups" if is_grpbc else "users"}.</code>")
+        
+    query = await db._getAllGrps() if is_grpbc else await db._getAllUsers()
     broadcast_msg = message.reply_to_message
     total, successful, blocked, deleted, unsuccessful = 0, 0, 0, 0, 0
     pls_wait = await message.reply("<i>Broadcasting Message.. This will Take Some Time</i>")
@@ -130,14 +132,14 @@ async def broadcast(_, message):
             await broadcast_msg.copy(chat_id)
             successful += 1
         except FloodWait as e:
-            sleep(e.value * 1.2)
+            sleep(e.value * 1.1)
             await broadcast_msg.copy(chat_id)
             successful += 1
         except UserIsBlocked:
-            await db._rmUserData(chat_id)
+            await db._rmGroup(chat_id) if is_grpbc else await db._rmUserData(chat_id)
             blocked += 1
         except InputUserDeactivated:
-            await db._rmUserData(chat_id)
+            await db._rmGroup(chat_id) if is_grpbc else await db._rmUserData(chat_id)
             deleted += 1
         except Exception as e:
             LOGGER.error(str(e))
@@ -146,10 +148,10 @@ async def broadcast(_, message):
 
     status = f"""📡 <b><u>Broadcast Completed</u></b>
 
-🗄 Total Users: <code>{total}</code>
+🗄 Total {"Groups" if is_grpbc else "Users"}: <code>{total}</code>
 📈 Successful: <code>{successful}</code>
-🔐 Blocked Users: <code>{blocked}</code>
-📮 Deleted Accounts: <code>{deleted}</code>
+🔐 Blocked {"Groups" if is_grpbc else "Users"}: <code>{blocked}</code>
+📮 Deleted Chats: <code>{deleted}</code>
 📉 Unsuccessful: <code>{unsuccessful}</code>"""
     await pls_wait.edit(status)
     

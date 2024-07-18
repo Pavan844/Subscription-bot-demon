@@ -8,6 +8,7 @@ class Database:
         self._client = AsyncIOMotorClient(uri)
         self.db = self._client[database_name]
         self.pusers = self.db.users
+        self.grps = self.db.groups
 
     async def _defData(self, uid):
         return dict(_id=uid, prem_chats={}, my_cart={}, prev_trans=[], refers=dict(is_ref=False, uids=[]))
@@ -20,6 +21,11 @@ class Database:
         if val:
             return usr.get(val, _def)
         return usr
+        
+    async def _updateGroup(self, gid):
+        grp = await self.grps.find_one({"_id": gid})
+        if not grp:
+            await self.grps.insert_one(dict(_id=gid))
 
     async def _setUserData(self, uid, data=None, key=None, value=None):
         await self._getUser(uid)
@@ -30,11 +36,16 @@ class Database:
 
     async def _rmUserData(self, uid):
         await self.pusers.delete_one({"_id": uid})
+        
+    async def _rmGroup(self, gid)
+        await self.grps.delete_one(dict(_id=gid))
 
     async def _totalUsers(self):
-        count = await self.pusers.count_documents({})
-        return count
+        return await self.pusers.count_documents({})
 
+    async def _getAllGrps(self):
+        return self.grps.find({})
+    
     async def _getAllUsers(self):
         return self.pusers.find({})
 
