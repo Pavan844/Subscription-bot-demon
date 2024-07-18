@@ -5,7 +5,8 @@ from random import choice
 from time import time
 
 from pyrogram.errors.pyromod.listener_timeout import ListenerTimeout
-from pyrogram.filters import command, photo, private, regex
+from pyrogram import filters
+from pyrogram.filters import command, photo, private, regex, group
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
 
 from SubsManager import BOT_START, Config, bot, bot_cache, bot_chats
@@ -51,7 +52,7 @@ async def start_msg(_, message):
     await db._getUser(uid)
     
 
-@bot.on_message(all & group)
+@bot.on_message(filters.all & group)
 async def grps_add(_, m):
     await db._updateGroup(m.chat.id)
 
