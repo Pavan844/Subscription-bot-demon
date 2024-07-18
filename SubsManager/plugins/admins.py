@@ -120,7 +120,7 @@ async def broadcast(_, message):
     is_grpbc = bool(message.command[0] in ["grp_bc", "grp_broadcast"])
 
     if not message.reply_to_message:
-        return await message.reply(f"<code>Use this command as a reply to any telegram message to broadcast to all {"groups" if is_grpbc else "users"}.</code>")
+        return await message.reply(f"<code>Use this command as a reply to any telegram message to broadcast to all {'groups' if is_grpbc else 'users'}.</code>")
         
     query = await db._getAllGrps() if is_grpbc else await db._getAllUsers()
     broadcast_msg = message.reply_to_message
