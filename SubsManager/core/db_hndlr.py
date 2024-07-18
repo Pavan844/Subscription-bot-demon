@@ -37,7 +37,7 @@ class Database:
     async def _rmUserData(self, uid):
         await self.pusers.delete_one({"_id": uid})
         
-    async def _rmGroup(self, gid)
+    async def _rmGroup(self, gid):
         await self.grps.delete_one(dict(_id=gid))
 
     async def _totalUsers(self):
