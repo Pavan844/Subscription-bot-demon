@@ -35,7 +35,7 @@ bot_chats = {
             "Type": "All type of videos", 
             "Desp": "Nothing to Say, Highly Recommended all type videos include fre user refer and paid"},
     },    
-   -1002093797403: {
+      -1002093797403: {
         "prices": {"365d": 99,  "730day": 199},
         "sshots": [
             "https://telegra.ph/file/408c464aa15decb52d9eb.jpg",
@@ -45,16 +45,7 @@ bot_chats = {
         "args": {
             "Type": "Kannada videos",
             "Desp": "Nothing to Say, Highly Recommended kannada videos",},
-        -1002187836707: {
-        "prices": {"365d": 99,  "730day": 199},        "sshots": [
-            "https://telegra.ph/file/05719461901faee0b80eb.jpg",          
-            "https://telegra.ph/file/1c39a200c1e0e31abc585.jpg", 
-            "https://telegra.ph/file/fa83b6ee83dbf9e5bbeb2.jpg",
-   ],
-        "args": {            
-            "Type": "DESI FORIGNERS",
-            "Desp": "Nothing to Say, Highly Recommended DESI FORIGNERS PREMIUM 40000 fucking videos",        },       
-    },
+      },
    -1002062783095: {
         "prices": {"365d": 99,  "730day": 199},
         "sshots": [
@@ -83,6 +74,8 @@ bot_chats = {
          "args": {
              "Type": "Over Forced videos", 
              "Desp": "Nothing to Say, Highly Recommended Overforced r@p videos", },
+ },
+
         -1002216476093: {
                  "prices": {"365d": 99,  "730day": 199},       
            "sshots": [
@@ -91,7 +84,7 @@ bot_chats = {
             "https://telegra.ph/file/529c5bd1d6bc29395ccde.jpg",
    ],
         "args": {            
-            "Type": "TORCHER",
+            "Type": "TORCHER 🚫❌",
             "Desp": "Nothing to Say, Highly NOT Recommended TORCHER ",},
      },
      -1002012075373: {
@@ -103,6 +96,17 @@ bot_chats = {
             "Type": "MILFY BOOBS",
             "Desp": "Nothing to Say, Highly Recommended rape videos",},
      },
+      -1002187836707: {
+        "prices": {"365d": 99,  "730day": 199},        
+        "sshots": [
+            "https://telegra.ph/file/05719461901faee0b80eb.jpg",          
+            "https://telegra.ph/file/1c39a200c1e0e31abc585.jpg", 
+            "https://telegra.ph/file/fa83b6ee83dbf9e5bbeb2.jpg",
+   ],
+        "args": {            
+            "Type": "DESI FORIGNERS",
+            "Desp": "Nothing to Say, Highly Recommended DESI FORIGNERS PREMIUM 40000 fucking videos",        },       
+    },
     -1002057152413: {
         "prices": {"365d": 99,  "730day": 199},
         "sshots": [
