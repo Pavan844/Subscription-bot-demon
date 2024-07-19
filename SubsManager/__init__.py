@@ -269,8 +269,9 @@ bot_chats = {
             "Type": "Mom son Indian",
             "Desp": "Nothing to Say, Highly Recommended MOM SON FUCKS TO GETHER WHEN FATHER NOT THERE fucking  videos",},
 },
-        -1002176904721: {
-        "prices": {"365d": 99,  "730day": 199},        "sshots": [
+      -1002176904721: {
+        "prices": {"365d": 99,  "730day": 199},        
+        "sshots": [
             "https://telegra.ph/file/b9d65d7f7c32d8c7d505b.jpg",          
             "https://telegra.ph/file/94b3b342dd1615ddda1bb.jpg", 
             "https://telegra.ph/file/35f449cb8a300e2b848f0.jpg",
@@ -279,21 +280,20 @@ bot_chats = {
             "Type": "FANTASY PICS ",
             "Desp": "Nothing to Say, Highly Recommended FANTASY PICS PHOTOS 40000 fucking videos",        },
      },
-},      -1002161538113: {
-        "prices": {"365d": 99,  "730day": 199},        "sshots": [
+      -1002161538113: {
+        "prices": {"365d": 99,  "730day": 199},
+        "sshots": [
             "https://telegra.ph/file/5ae3eb6c580f999caa764.jpg",          
             "https://telegra.ph/file/de9fdf9de0ca1456a2332.jpg", 
-            "https://telegra.ph/file/03bf3e7c088420818117f.jpg", 
-   
+            "https://telegra.ph/file/03bf3e7c088420818117f.jpg",
    ],
         "args": {
             "Type": "naughty america",
             "Desp": "Nothing to Say, Highly Recommended NAUGHTY AMERICA  fucking videos",        },
      },
-
-
-       -1002161538113: {
-        "prices": {"365d": 99,  "730day": 199},        "sshots": [
+     -1002161538113: {
+        "prices": {"365d": 99,  "730day": 199},
+        "sshots": [
             "https://telegra.ph/file/99626b28cf3415d60a4e4.jpg",          
             "https://telegra.ph/file/3da95da0e8fefb87538c7.jpg", 
             "https://telegra.ph/file/062f5c9881844ab7f7388.jpg", 
