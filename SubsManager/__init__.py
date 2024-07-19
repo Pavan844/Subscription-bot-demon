@@ -1,4 +1,4 @@
-from logging import ERROR, INFO, FileHandler, StreamHandler, basi8cConfig, getLogger
+from logging import ERROR, INFO, FileHandler, StreamHandler, basicConfig, getLogger
 from os import getenv
 from time import time
 
