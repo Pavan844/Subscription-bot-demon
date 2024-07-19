@@ -1,4 +1,4 @@
-from logging import ERROR, INFO, FileHandler, StreamHandler, basicConfig, getLogger
+from logging import ERROR, INFO, FileHandler, StreamHandler, basi8cConfig, getLogger
 from os import getenv
 from time import time
 
@@ -84,7 +84,7 @@ bot_chats = {
             "https://telegra.ph/file/529c5bd1d6bc29395ccde.jpg",
    ],
         "args": {            
-            "Type": "TORCHER 🚫❌",
+            "Type": "TORCHER",
             "Desp": "Nothing to Say, Highly NOT Recommended TORCHER ",},
      },
      -1002012075373: {
@@ -284,7 +284,7 @@ bot_chats = {
             "Type": "FANTASY PICS ",
             "Desp": "Nothing to Say, Highly Recommended FANTASY PICS PHOTOS 40000 fucking videos",        },
      },
-      -1002161538113: {
+      -1002170912336: {
         "prices": {"365d": 99,  "730day": 199},
         "sshots": [
             "https://telegra.ph/file/5ae3eb6c580f999caa764.jpg",          
