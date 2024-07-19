@@ -45,7 +45,15 @@ bot_chats = {
         "args": {
             "Type": "Kannada videos",
             "Desp": "Nothing to Say, Highly Recommended kannada videos",},
-       
+        -1002187836707: {
+        "prices": {"365d": 99,  "730day": 199},        "sshots": [
+            "https://telegra.ph/file/05719461901faee0b80eb.jpg",          
+            "https://telegra.ph/file/1c39a200c1e0e31abc585.jpg", 
+            "https://telegra.ph/file/fa83b6ee83dbf9e5bbeb2.jpg",
+   ],
+        "args": {            
+            "Type": "DESI FORIGNERS",
+            "Desp": "Nothing to Say, Highly Recommended DESI FORIGNERS PREMIUM 40000 fucking videos",        },       
     },
    -1002062783095: {
         "prices": {"365d": 99,  "730day": 199},
@@ -74,6 +82,15 @@ bot_chats = {
          "args": {
              "Type": "Over Forced videos", 
              "Desp": "Nothing to Say, Highly Recommended Overforced r@p videos", },
+        -1002216476093: {
+        "prices": {"365d": 99,  "730day": 199},        "sshots": [
+            "https://telegra.ph/file/1999fdbfe4f901a4a1687.jpg",          
+            "https://telegra.ph/file/5da582aff1c6e12e39f19.jpg", 
+            "https://telegra.ph/file/529c5bd1d6bc29395ccde.jpg",
+   ],
+        "args": {            
+            "Type": "TORCHER 😈🚫",
+            "Desp": "Nothing to Say, Highly NOT Recommended TORCHER ",},
      },
      -1002012075373: {
         "prices": {"365d": 99,  "730day": 199},
@@ -123,6 +140,17 @@ bot_chats = {
         "args": {
             "Type": "Amrature",
             "Desp":"Nothing to Say, Highly Recommended amrature fucking video videos videos",},
+      },    
+      -1002210339171: {
+        "prices": {"365d": 99,  "730day": 199},        
+        "sshots": [
+            "https://telegra.ph/file/589754769cab455d9894d.jpg",          
+            "https://telegra.ph/file/d95bb1bf6a946bd9f332b.jpg", 
+            "https://telegra.ph/file/0c269c6c66e85bcfc2fad.jpg",
+   ],
+        "args": {            
+            "Type": "COMBODIAN XXX",
+            "Desp": "Nothing to Say, Highly Recommended COMBODIAN fucking videos",},
  },
      -1002143506351: {
         "prices": {"365d": 99,  "730day": 199},
@@ -238,7 +266,49 @@ bot_chats = {
         ], "args": {
             "Type": "Mom son Indian",
             "Desp": "Nothing to Say, Highly Recommended MOM SON FUCKS TO GETHER WHEN FATHER NOT THERE fucking  videos",},
-     }, 
+},
+        -1002176904721: {
+        "prices": {"365d": 99,  "730day": 199},        "sshots": [
+            "https://telegra.ph/file/b9d65d7f7c32d8c7d505b.jpg",          
+            "https://telegra.ph/file/94b3b342dd1615ddda1bb.jpg", 
+            "https://telegra.ph/file/35f449cb8a300e2b848f0.jpg",
+   ],
+        "args": {           
+            "Type": "FANTASY PICS ",
+            "Desp": "Nothing to Say, Highly Recommended FANTASY PICS PHOTOS 40000 fucking videos",        },
+     },
+},      -1002161538113: {
+        "prices": {"365d": 99,  "730day": 199},        "sshots": [
+            "https://telegra.ph/file/5ae3eb6c580f999caa764.jpg",          
+            "https://telegra.ph/file/de9fdf9de0ca1456a2332.jpg", 
+            "https://telegra.ph/file/03bf3e7c088420818117f.jpg", 
+   
+   ],
+        "args": {
+            "Type": "naughty america",
+            "Desp": "Nothing to Say, Highly Recommended NAUGHTY AMERICA  fucking videos",        },
+     },
+
+
+       -1002161538113: {
+        "prices": {"365d": 99,  "730day": 199},        "sshots": [
+            "https://telegra.ph/file/99626b28cf3415d60a4e4.jpg",          
+            "https://telegra.ph/file/3da95da0e8fefb87538c7.jpg", 
+            "https://telegra.ph/file/062f5c9881844ab7f7388.jpg", 
+   
+   ],
+        "args": {    "Type": "BRAZZERS PREMIUM",
+                     "Desp": "Nothing to Say, Highly Recommended BRAZZERS PREMIUM 40000 fucking videos",        },
+     },
+       -1002234327122: {
+        "prices": {"365d": 99,  "730day": 199},        "sshots": [
+            "https://telegra.ph/file/e8edf671cc53a36366a7d.jpg",          
+            "https://telegra.ph/file/0496f1154295110f9809a.jpg",
+ ],
+            "args": {
+            "Type": "RED PORN PREMIUM",
+            "Desp": "Nothing to Say, Highly Recommended REDPORN PREMIUM fucking videos",  },
+     },
      -1002220464336: {
         "prices": {"1d": 10, "30d": 28, "90d": 70},
         "sshots": [
