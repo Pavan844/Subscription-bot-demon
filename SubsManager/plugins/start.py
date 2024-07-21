@@ -4,12 +4,13 @@ from datetime import datetime, timedelta
 from random import choice
 from time import time
 
+from pyrogram.errors import FloodWait
 from pyrogram.errors.pyromod.listener_timeout import ListenerTimeout
 from pyrogram import filters
 from pyrogram.filters import command, photo, private, regex, group
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
 
-from SubsManager import BOT_START, Config, bot, bot_cache, bot_chats
+from SubsManager import BOT_START, Config, bot, bot_cache, bot_chats, LOGGER
 from SubsManager.core.bot_utils import change_font, convertTime
 from SubsManager.core.db_hndlr import db
 from SubsManager.core.tg_utils import editMessage, sendMessage
@@ -58,7 +59,13 @@ async def grps_add(_, m):
 
 
 async def get_cinfo(cid, plan):
-    c_info = await bot.get_chat(cid)
+    try:
+        c_info = await bot.get_chat(cid)
+    except FloodWait as f:
+        LOGGER.warning(f"Get Chat: Sleeping for {f.value}s")
+        await asleep(f.value * 1.1)
+        c_info = await bot.get_chat(cid)
+    
     p_info = "\n        ‣".join(
         f"Rs. {p} for {t}" for t, p in bot_chats[cid]["prices"].items()
     )
@@ -76,7 +83,7 @@ async def get_cinfo(cid, plan):
 
 chat_cache = {}
 
-async def get_chat(client, chat):
+async def get_chat_title(client, chat):
     if not chat_cache.get(chat, False):
         c_info = await client.get_chat(chat)
         chat_cache[chat] = change_font(c_info.title)
@@ -91,7 +98,7 @@ async def global_bot_cb(client, query):
         await query.answer()
         chats = []
         for ind, chat in enumerate(bot_chats.keys(), start=1):
-            c_title = await get_chat(client, chat)
+            c_title = await get_chat_title(client, chat)
             chats.append(
                 [
                     InlineKeyboardButton(
@@ -119,6 +126,11 @@ async def global_bot_cb(client, query):
         btns = [
             [
                 InlineKeyboardButton(
+                    "Channel Trial ( 30sec )", callback_data=f"cbbot chtrial {data[2]}"
+                ),
+            ],
+            [
+                InlineKeyboardButton(
                     "Show Screenshots", callback_data=f"cbbot css {data[2]}"
                 ),
                 InlineKeyboardButton(
@@ -140,6 +152,38 @@ async def global_bot_cb(client, query):
         await editMessage(message, "")
         await asleep(0.3)
         await editMessage(message, txt, buttons=InlineKeyboardMarkup(btns))
+    elif data[1] == "chtrial":
+        uid, cid = query.from_user.id, int(data[2])
+        chats_trail = await db._getUser(uid, "chats_trail", [])
+        if cid in chats_trail:
+            return await query.answer("Already Exhausted Free Trial for this Premium Channel", show_alert=True)
+        await query.answer("• ALERT:\n\n>> Only once you can use Trial per Channel", show_alert=True)
+        
+        txt = "• <u><b>Free Trail of Premium Channel:</b></u>\n\n"
+        txt += f"<b>Channel Name: {(await client.get_chat(cid)).title}</b>\n"
+        txt += f"    <b>Invite Link:</b> <i>{(await client.create_chat_invite_link(cid, expire_date=datetime.now()+timedelta(seconds=30), member_limit=1)).invite_link}</i>\n"
+        txt += f"    <b>Trail Duration:</b> <i>30 seconds </i>\n\n"
+        
+        await editMessage(
+            message,
+            txt,
+            buttons=InlineKeyboardMarkup(
+                [[InlineKeyboardButton("Close", callback_data="cbbot close")]]
+            ),
+        )
+        
+        chats_trail.append(cid)
+        await db._setUserData(uid, key="chats_trail", value=chats_trail)
+        
+        await asleep(30)
+        
+        retries = 1
+        while retries <= 10:
+            try:
+                await bot.ban_chat_member(cid, uid, until_date=datetime.now() + timedelta(seconds=120))
+            except Exception as e:
+                LOGGER.error(f"Ban Chat Error: {str(e)} | User ID: {uid} & Name: {(await client.get_users(uid)).first_name}")
+                retries += 1
     elif data[1] == "css":
         await query.answer()
         await message.reply_media_group(

@@ -11,7 +11,7 @@ class Database:
         self.grps = self.db.groups
 
     async def _defData(self, uid):
-        return dict(_id=uid, prem_chats={}, my_cart={}, prev_trans=[], refers=dict(is_ref=False, uids=[]))
+        return dict(_id=uid, prem_chats={}, my_cart={}, prev_trans=[], refers=dict(is_ref=False, uids=[]), chats_trail=[])
 
     async def _getUser(self, uid, val=None, _def=None):
         usr = await self.pusers.find_one({"_id": uid})
