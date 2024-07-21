@@ -42,6 +42,9 @@ class Database:
 
     async def _totalUsers(self):
         return await self.pusers.count_documents({})
+        
+    async def _totalGrps(self):
+        return await self.grps.count_documents({})
 
     async def _getAllGrps(self):
         return self.grps.find({})

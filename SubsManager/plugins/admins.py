@@ -4,7 +4,7 @@ from time import sleep
 from pyrogram.filters import command, user
 from pyrogram.errors import FloodWait, UserIsBlocked, InputUserDeactivated
 
-from SubsManager import Config, bot, bot_chats
+from SubsManager import LOGGER, Config, bot, bot_chats
 from SubsManager.core.db_hndlr import db
 from SubsManager.core.tg_utils import sendMessage
 
@@ -86,9 +86,13 @@ async def rm_prem(_, message):
         )
 
 
-@bot.on_message(command("premusers") & user(Config.ADMINS))
+@bot.on_message(command("allchats") & user(Config.ADMINS))
 async def all_prem(_, message):
-    await message.reply(f"<b>Total Users: {await db._totalUsers()}</b>")
+    await message.reply(f"""
+    
+    <b>Total Users: {await db._totalUsers()}</b>
+    <b>Total Groups: {await db._totalGrps()}</b>
+""")
 
 
 @bot.on_message(command("ban") & user(Config.ADMINS))
