@@ -27,7 +27,7 @@ async def start_msg(_, message):
     <b>• ADMIN:</b> @Kammando55
     
 <i>A Smart & Efficient User Subscription Management Bot, with Multiple Features to feel ease both to customers & administrators...WAIT A SECOND TO LOAD PREMIUM CHANNELLS</i>""",
-        photo="https://telegra.ph/file/a40b781c1fe89c0f55866.jpg https://telegra.ph/file/7d41727086bb9c3018f82.jpg https://telegra.ph/file/bf00b5bc05008149d79f9.jpg",
+        photo="https://telegra.ph/file/a40b781c1fe89c0f55866.jpg",
         buttons=InlineKeyboardMarkup(
             [
                 [
