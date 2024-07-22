@@ -32,7 +32,7 @@ async def start_msg(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        "🥵Premium Channels Showcase🔞", callback_data="cbbot chats"
+                        "🥵 Premium Channels Showcase 🔞", callback_data="cbbot chats"
                     )
                 ],
                 [
