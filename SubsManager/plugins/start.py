@@ -161,7 +161,7 @@ async def global_bot_cb(client, query):
         
         txt = "• <u><b>Free Trail of Premium Channel:</b></u>\n\n"
         txt += f"<b>Channel Name: {(await client.get_chat(cid)).title}</b>\n"
-        txt += f"    <b>Invite Link:</b> <i>{(await client.create_chat_invite_link(cid, expire_date=datetime.now()+timedelta(seconds=30), member_limit=1)).invite_link}</i>\n"
+        txt += f"    <b>Invite Link:</b> <i>{(await client.create_chat_invite_link(cid, expire_date=datetime.now()+timedelta(seconds=20), member_limit=1)).invite_link}</i>\n"
         txt += f"    <b>Trail Duration:</b> <i>30 seconds </i>\n\n"
         
         await editMessage(
