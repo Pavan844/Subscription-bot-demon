@@ -36,7 +36,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended all type videos include fre user refer and paid"},
     },    
       -1002093797403: {
-        "prices": {365d": 99,  "730day": 199},
+        "prices": {"365d": 99,  "730day": 199},
         "sshots": [
             "https://telegra.ph/file/408c464aa15decb52d9eb.jpg",
             "https://telegra.ph/file/dbae82f39b64c55668e42.jpg",
