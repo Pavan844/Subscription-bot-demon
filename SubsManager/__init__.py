@@ -25,7 +25,7 @@ bot_cache = {}
 
 bot_chats = {    
       -1002094932065: {
-        "prices": {"1d": 10, "30d": 250, "90d": 600},
+        "prices": {"1d": 10, "30d": 299, "90d": 600},
         "sshots": [
             "https://telegra.ph/file/c1caf4659e5e495355a0a.jpg",
             "https://telegra.ph/file/949cba8c7936a0aef636e.jpg",
@@ -36,7 +36,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended all type videos include fre user refer and paid"},
     },    
       -1002093797403: {
-        "prices": {"365d": 50,  "730day": 99},
+        "prices": {"365d": 99,  "730day": 199},
         "sshots": [
             "https://telegra.ph/file/408c464aa15decb52d9eb.jpg",
             "https://telegra.ph/file/dbae82f39b64c55668e42.jpg",
@@ -47,7 +47,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended kannada videos",},
       },
    -1002062783095: {
-        "prices": {"365d": 50,  "730day": 99},
+        "prices": {"365d": 99,  "730day": 199},
         "sshots": [
             "https://telegra.ph/file/140319b9aee613f929291.jpg",
         ],
@@ -56,7 +56,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended childporn",},
      },
       -1002054920818: {
-        "prices": {"365d": 50,  "730day": 99},
+        "prices": {"365d": 99,  "730day": 199},
         "sshots": [
             "https://telegra.ph/file/ae96db554b43c6d6b33a9.jpg",
             "https://telegra.ph/file/8cb81c8c284bd472324b8.jpg",
@@ -66,7 +66,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended rape videos",},
       },
        -1002232203998: { 
-         "prices": {"365d": 150,  "180day": 99},       
+         "prices": {"365d": 199,  "180day": 199},       
          "sshots": [ 
             "https://telegra.ph/file/408c464aa15decb52d9eb.jpg",            
             "https://telegra.ph/file/532a4becebb26e6e9faef.jpg", 
@@ -77,7 +77,7 @@ bot_chats = {
  },
 
         -1002216476093: {
-                 "prices": {"365d": 50,  "730day": 99},       
+                 "prices": {"365d": 99,  "730day": 199},       
            "sshots": [
             "https://telegra.ph/file/1999fdbfe4f901a4a1687.jpg",          
             "https://telegra.ph/file/5da582aff1c6e12e39f19.jpg", 
@@ -88,7 +88,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly NOT Recommended TORCHER ",},
      },
      -1002012075373: {
-        "prices": {"365d": 50,  "730day": 99},
+        "prices": {"365d": 99,  "730day": 199},
         "sshots": [
             "https://telegra.ph/file/b061bd85ee8a41565616e.jpg",
         ],
@@ -97,7 +97,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended rape videos",},
      },
       -1002187836707: {
-        "prices": {"365d": 50,  "730day": 99},        
+        "prices": {"365d": 99,  "730day": 199},        
         "sshots": [
             "https://telegra.ph/file/05719461901faee0b80eb.jpg",          
             "https://telegra.ph/file/1c39a200c1e0e31abc585.jpg", 
@@ -108,7 +108,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended DESI FORIGNERS PREMIUM 40000 fucking videos",        },       
     },
     -1002057152413: {
-        "prices": {"365d": 50,  "730day": 99},
+        "prices": {"365d": 99,  "730day": 199},
         "sshots": [
             "https://telegra.ph/file/df24b7f1c82a4c02d9cc5.jpg",
             "https://telegra.ph/file/605e243f060edd164f8e8.jpg",
@@ -118,7 +118,7 @@ bot_chats = {
             "Desp": "Nothing to Say,Highly Recommended prajwal revanna videos",},
     },
      -1002025167901: {
-         "prices": {"365d": 50,  "730day": 99},
+         "prices": {"365d": 99,  "730day": 199},
          "sshots": [
              "https://telegra.ph/file/79fb5774c5cb3a8c44853.jpg",
              "https://telegra.ph/file/e1e1198bdba65e775d2ee.jpg",
@@ -128,7 +128,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended bra panty weared videos photos",},
      },
      -1002132453287: {
-         "prices": {"365d": 50,  "730day": 99},
+         "prices": {"365d": 99,  "730day": 199},
          "sshots": [
              "https://telegra.ph/file/2bab102cee5fb4ee33140.jpg",
              "https://telegra.ph/file/2c099023aec4aec9b7608.jpg",
@@ -138,7 +138,7 @@ bot_chats = {
             "Desp":"Nothing to Say, Highly Recommended lebsian fucking video videos videos",},
      },
      -1002043373889: {
-             "prices": {"365d": 50,  "730day": 99},
+             "prices": {"365d": 99,  "730day": 199},
              "sshots": [
             "https://telegra.ph/file/03b68799c1e90b0533f50.jpg",
             "https://telegra.ph/file/92f33db2e55a382a74829.jpg",
@@ -148,7 +148,7 @@ bot_chats = {
             "Desp":"Nothing to Say, Highly Recommended amrature fucking video videos videos",},
       },    
       -1002210339171: {
-        "prices": {"365d": 50,  "730day": 99},        
+        "prices": {"365d": 99,  "730day": 199},        
         "sshots": [
             "https://telegra.ph/file/589754769cab455d9894d.jpg",          
             "https://telegra.ph/file/d95bb1bf6a946bd9f332b.jpg", 
@@ -159,7 +159,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended COMBODIAN fucking videos",},
  },
      -1002143506351: {
-        "prices": {"365d": 50,  "730day": 99},
+        "prices": {"365d": 99,  "730day": 199},
         "sshots": [
             "https://telegra.ph/file/e80391cf199781e178d0c.jpg",
             "https://telegra.ph/file/12ffdffc9522095306f9e.jpg",
@@ -169,7 +169,7 @@ bot_chats = {
  "Desp": "Nothing to Say, Highly Recommended Arkestra fucking video videos videos",},
  },
      -1001990894943: {
-        "prices": {"365d": 50, "730day": 99},
+        "prices": {"365d": 99, "730day": 199},
         "sshots": [
             "https://telegra.ph/file/cebf410aab51a86d89d4a.jpg",
             "https://telegra.ph/file/6aa05ab2113a6873b73e4.jpg",
@@ -179,7 +179,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended Auntys and girls fucking video videos videos",},
  },
      -1002014215972: {
-        "prices": {"365d": 50,  "730day": 99},
+        "prices": {"365d": 99,  "730day": 199},
         "sshots": [
             "https://telegra.ph/file/7c20f2a912ff467b74a8c.jpg",
         ],
@@ -188,7 +188,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended Fingering girl  videos videos",},
  },
       -1002035263833: {
-        "prices": {"365d": 50,  "730day": 99},
+        "prices": {"365d": 99,  "730day": 199},
         "sshots": [
            "https://telegra.ph/file/bec5e9ba05e9a8fb384e8.jpg", 
            "https://telegra.ph/file/d92635036084702b8c1cf.jpg",
@@ -198,7 +198,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended shemale videos",},
  },
      -1002115785604: {
- "prices": {"365d": 50,  "730day": 99},
+ "prices": {"365d": 99,  "730day": 199},
         "sshots": [
             "https://telegra.ph/file/df9b00a2e86cff722ca1b.jpg",
             "https://telegra.ph/file/fffa68c3cfe6823d3f7ec.jpg",
@@ -209,7 +209,7 @@ bot_chats = {
  "Desp": "Nothing to Say, Highly Recommended Ony blow job videos",},
  },
      -1002021845785: {
-        "prices": {"365d": 50,  "730day": 99},
+        "prices": {"365d": 99,  "730day": 199},
         "sshots": [
             "https://telegra.ph/file/c8c891a6869341c9c03b9.jpg", 
             "https://telegra.ph/file/839fe37996b3847b79355.jpg", 
@@ -219,7 +219,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended Real Mom son adult fucking video videos videos",},
 },    
    -1002097246586: {
-        "prices": {"365d": 50,  "730day": 99},
+        "prices": {"365d": 99,  "730day": 199},
         "sshots": [
             "https://telegra.ph/file/cecfc6dedfed35c28287a.png",
             "https://telegra.ph/file/5ddaaab9d18f7148a6b9c.png",
@@ -229,7 +229,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended pedro mom videos ",},
  },
     -1002052874333: {
-        "prices": {"365d": 50,  "730day": 99},
+        "prices": {"365d": 99,  "730day": 199},
         "sshots": [
             "https://telegra.ph/file/1d516853b93e511e3199e.jpg",
         ],
@@ -238,7 +238,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended Real muslim mom videos",},
  },
          -1002054957272: {
-        "prices": {"365d": 50,  "730day": 99}, 
+        "prices": {"365d": 99,  "730day": 199}, 
         "sshots": [
             "https://telegra.ph/file/23f666e437392b5139cbb.jpg", 
         ],
@@ -247,7 +247,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended Spy dressing mom videos", }, 
  },
      -1002059225110: {
-        "prices": {"365d": 50,  "730day": 99}, 
+        "prices": {"365d": 99,  "730day": 199}, 
         "sshots": [
         "https://telegra.ph/file/047a27315bd1db94239a0.jpg", 
         ],
@@ -256,7 +256,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended Mom vc cough while calling to boy freind .videos",}, 
  },
     -1002014191919: {
-        "prices": {"365d": 50,  "730day": 99}, 
+        "prices": {"365d": 99,  "730day": 199}, 
         "sshots": [
             "https://telegra.ph/file/84a2d1b8f46ebfc225947.jpg", 
         ],
@@ -265,7 +265,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended Son Spys his mom in full mood and jerk videos",},
  },
       -1002013265570: { 
-        "prices": {"365d": 50,  "730day": 99}, 
+        "prices": {"365d": 99,  "730day": 199}, 
         "sshots": [
             "https://telegra.ph/file/19fe32bd5da075d8a92b0.jpg",
             "https://telegra.ph/file/f3ab30b519e105f028158.jpg",
@@ -274,7 +274,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended MOM SON FUCKS TO GETHER WHEN FATHER NOT THERE fucking  videos",},
 },
       -1002176904721: {
-        "prices": {"365d": 50,  "730day": 99},        
+        "prices": {"365d": 99,  "730day": 199},        
         "sshots": [
             "https://telegra.ph/file/b9d65d7f7c32d8c7d505b.jpg",          
             "https://telegra.ph/file/94b3b342dd1615ddda1bb.jpg", 
@@ -285,7 +285,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended FANTASY PICS PHOTOS 40000 fucking videos",        },
      },
       -1002170912336: {
-        "prices": {"365d": 50,  "730day": 99},
+        "prices": {"365d": 99,  "730day": 199},
         "sshots": [
             "https://telegra.ph/file/5ae3eb6c580f999caa764.jpg",          
             "https://telegra.ph/file/de9fdf9de0ca1456a2332.jpg", 
@@ -296,7 +296,7 @@ bot_chats = {
             "Desp": "Nothing to Say, Highly Recommended NAUGHTY AMERICA  fucking videos",        },
      },
      -1002161538113: {
-        "prices": {"365d": 50,  "730day": 99},
+        "prices": {"365d": 99,  "730day": 199},
         "sshots": [
             "https://telegra.ph/file/99626b28cf3415d60a4e4.jpg",          
             "https://telegra.ph/file/3da95da0e8fefb87538c7.jpg", 
@@ -307,7 +307,7 @@ bot_chats = {
                      "Desp": "Nothing to Say, Highly Recommended BRAZZERS PREMIUM 40000 fucking videos",        },
      },
        -1002234327122: {
-        "prices": {"365d": 50,  "730day": 99},        "sshots": [
+        "prices": {"365d": 99,  "730day": 199},        "sshots": [
             "https://telegra.ph/file/e8edf671cc53a36366a7d.jpg",          
             "https://telegra.ph/file/0496f1154295110f9809a.jpg",
  ],
