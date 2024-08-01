@@ -154,9 +154,14 @@ async def global_bot_cb(client, query):
         await editMessage(message, txt, buttons=InlineKeyboardMarkup(btns))
     elif data[1] == "chtrial":
         uid, cid = query.from_user.id, int(data[2])
-        chats_trail = await db._getUser(uid, "chats_trail", [])
+        udata = await db._getUser(uid)
+        chats_trail = udata.get("chats_trail", [])
+        
         if cid in chats_trail:
-            return await query.answer("Already Exhausted Free Trial for this Premium Channel", show_alert=True)
+            return await query.answer("Already Exhausted Free Trial for this Premium Channel!", show_alert=True)
+        elif cid in udata.get("prem_chats", {}).keys():
+            return await query.answer("Already, You have access for this Premium Channel!", show_alert=True)
+            
         await query.answer("• ALERT:\n\n>> Only once you can use Trial per Channel", show_alert=True)
         
         txt = "• <u><b>Free Trail of Premium Channel:</b></u>\n\n"
@@ -181,6 +186,8 @@ async def global_bot_cb(client, query):
         while retries <= 10:
             try:
                 await bot.ban_chat_member(cid, uid, until_date=datetime.now() + timedelta(seconds=120))
+                await asleep(1)
+                await bot.unban_chat_member(cid, uid)
             except Exception as e:
                 LOGGER.error(f"Ban Chat Error: {str(e)} | User ID: {uid} & Name: {(await client.get_users(uid)).first_name}")
                 retries += 1

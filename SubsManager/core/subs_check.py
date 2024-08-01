@@ -21,6 +21,11 @@ async def subs_check():
                             uid,
                             until_date=datetime.now() + timedelta(seconds=120),
                         )
+                        await sleep(1.5)
+                        await bot.unban_chat_member(
+                            int(chat),
+                            uid
+                        )
                     except Exception as e:
                         LOGGER.error(str(e))
                         continue
